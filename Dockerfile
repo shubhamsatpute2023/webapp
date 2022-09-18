@@ -108,7 +108,7 @@ COPY server.xml ${CATALINA_HOME}/conf/
 ###
 COPY start-tomcat.sh ${CATALINA_HOME}/bin
 COPY entrypoint.sh /
-COPY /var/lib/jenkins/workspace/Docker-ansible/target/myweb.war "$CATALINA_HOME/webapps/
+
 
 ###
 # Start container
